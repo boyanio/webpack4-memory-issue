@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["DOM", "ES2015"],
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules"]
+}
